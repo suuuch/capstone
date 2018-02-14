@@ -66,3 +66,5 @@ target/
 
 # R Markdown
 .Rhistory
+.idea/
+
