@@ -68,3 +68,6 @@ target/
 .Rhistory
 .idea/
 
+*.zip
+logs/
+*.jpg
