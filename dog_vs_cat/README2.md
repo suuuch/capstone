@@ -40,8 +40,6 @@ Epochs 是24个,总训练时间是27分43秒
 │   └── val
 │       ├── cat
 │       └── dog
-├── logs
-│   └── train
 └── test
     └── test
 
@@ -49,12 +47,13 @@ Epochs 是24个,总训练时间是27分43秒
 
 使用的shell代码如下:
 ```shell
+# create data floder
 mkdir -p data/
-
+cd data/
 # unzip!
 unzip train.zip
 unzip test.zip
-# prep train directory and split train/trainval
+# prep train directory and split train/val
 cd train
 # sanity check
 find ./ -type f -name 'cat*' | wc -l # 12500
